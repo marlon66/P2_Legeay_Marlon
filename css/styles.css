@@ -213,9 +213,7 @@ a {
     display: flex;
     width: 100%;
   }
-  .searchFormSearchinput {
-    flex: 1;
-  }
+  
   .searchFormSubmitinputText {
     display: none;
   }
@@ -236,7 +234,7 @@ a {
     display: block;
   }
   .searchFormSubmitinputIcon {
-    display: none !important;
+    display: none;
   }
 }
 .hostingWrapper, .hostingPopular, .hostingMain {
@@ -279,7 +277,6 @@ a {
 }
 .hostingMainCardFigureImg {
   height: 7rem;
-  object-fit: fill;
   max-width: 100%;
   width: 100%;
   max-height: 100%;
