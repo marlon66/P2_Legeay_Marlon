@@ -89,7 +89,6 @@ a {
 .main {
   max-width: 1440px;
   margin: auto;
-  padding: 0 2rem;
   box-sizing: border-box;
 }
 
@@ -143,7 +142,7 @@ a {
 .searchFilters {
   display: flex;
   margin-top: 2rem;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 .searchFiltersTitle {
   margin: 0 2rem 1rem 0;
@@ -212,6 +211,11 @@ a {
   .searchForm {
     display: flex;
     width: 100%;
+    padding: 0 2rem;
+  }
+
+  .searchHeaderTitle, .searchHeaderSubtitle {
+    padding: 0 2rem;
   }
   
   .searchFormSubmitinputText {
@@ -224,9 +228,17 @@ a {
 @media screen and (max-width: 650px) {
   .searchFiltersTitle {
     width: 100%;
+    padding: 0 1.25rem;
   }
   .searchFiltersFilter {
     margin-right: 1rem;
+  }
+  .searchFilters {
+    padding: 0 1.5rem;
+  }
+
+  .searchResult {
+    padding: 0 2rem;
   }
 }
 @media screen and (min-width: 601px) {
@@ -324,9 +336,9 @@ a {
 .hostingPopularWrapcontentWrapimg {
   position: relative;
   min-height: 100%;
-  width: 33%;
-  min-width: 33%;
-  max-width: 33%;
+  width: 43%;
+  min-width: 43%;
+  max-width: 43%;
 }
 .hostingPopularWrapcontentWrapimgImg {
   border-radius: 1rem 0 0 1rem;
@@ -464,6 +476,7 @@ a {
     row-gap: 2rem;
     grid-template-columns: 1fr;
     grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
+    padding: 0 2rem;
   }
 }
 .footer {
