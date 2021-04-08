@@ -226,7 +226,7 @@ a {
     display: none;
   }
   .searchFormSubmitinputIcon {
-    display: inline-block !important;
+    display: block !important;
   }
 }
 @media screen and (max-width: 650px) {
