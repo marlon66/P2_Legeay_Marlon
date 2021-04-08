@@ -141,7 +141,7 @@ a {
   cursor: pointer;
 }
 .searchFormSubmitinputIcon {
-  display: none;
+  display: none !important;
 }
 .searchFilters {
   display: flex;
@@ -226,7 +226,7 @@ a {
     display: none;
   }
   .searchFormSubmitinputIcon {
-    display: block;
+    display: block !important;
   }
 }
 @media screen and (max-width: 650px) {
